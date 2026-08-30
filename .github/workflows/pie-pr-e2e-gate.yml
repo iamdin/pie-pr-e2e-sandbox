@@ -1,0 +1,10 @@
+name: Pie PR E2E Gate
+on:
+  pull_request:
+    branches:
+      - pie-pr-e2e-20260830-130020-base
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 180
